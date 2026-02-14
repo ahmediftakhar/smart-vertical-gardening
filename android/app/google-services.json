@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28895873887",
+    "project_id": "smart-vertical-gardening",
+    "storage_bucket": "smart-vertical-gardening.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28895873887:android:e626492ccff7647d0f84ea",
+        "android_client_info": {
+          "package_name": "com.abc.smartverticalgardening"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWEYGqvFFGvQjOR4Awzu_bQ-vr_pJfU54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

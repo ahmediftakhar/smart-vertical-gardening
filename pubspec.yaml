@@ -1,0 +1,66 @@
+name: smart_vertical_gardening
+description: >
+  A Flutter app for monitoring and controlling an IoT-based
+  Smart Vertical Gardening system using Firebase Realtime Database.
+
+publish_to: 'none' # Private project (not published on pub.dev)
+
+# Versioning
+# versionName = 1.0.3
+# versionCode = 4
+version: 1.0.3+4
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase (Dart 3 compatible)
+  firebase_core: ^2.32.0
+  firebase_database: ^10.5.7
+
+  # Local storage
+  shared_preferences: ^2.2.2
+
+  # State management
+  provider: ^6.1.1
+
+  # UI utilities
+  fluttertoast: ^8.2.4
+  flutter_spinkit: ^5.2.0
+  cupertino_icons: ^1.0.8
+
+  # Date & time formatting
+  intl: ^0.19.0
+
+  # Local notifications
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Appium / integration testing
+  flutter_driver:
+    sdk: flutter
+
+  # Linting
+  flutter_lints: ^3.0.2
+
+  # App icon generator
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: assets/icons/app_icon.png
